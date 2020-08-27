@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeGDTActionSDK"
-  s.version      = "2.0.1"
+  s.version      = "2.0.1.0"
   s.summary      = "广点通行为数据上报iOS SDK"
   s.description  = <<-DESC
     具体更新内容查看广点通官方说明文档
