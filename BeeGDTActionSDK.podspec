@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.source_files = 'lib/Header/*.h'
-  s.ios.vendored_libraries = 'lib/libGDTActionSDK.a'
+  s.ios.vendored_libraries = 'lib/sdk/libGDTActionSDK.a'
 
   s.xcconfig = { "OTHER_LINK_FLAG" => '$(inherited) -ObjC' }
 
