@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BeeGDTActionSDK"
-  s.version      = "2.0.1.1"
+  s.version      = "2.0.1.2"
   s.summary      = "广点通行为数据上报iOS SDK"
   s.description  = <<-DESC
     具体更新内容查看广点通官方说明文档
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.source_files = 'lib/Header/*.h'
-  s.ios.vendored_libraries = 'lib/LibGDTActionSDK.a'
+  s.ios.vendored_libraries = 'lib/libGDTActionSDK.a'
 
   s.xcconfig = { "OTHER_LINK_FLAG" => '$(inherited) -ObjC' }
 
